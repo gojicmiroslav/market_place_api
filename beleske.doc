@@ -1,0 +1,9 @@
+- URL: http://apionrails.icalialabs.com/book/chapter_one#sec-initializing_project
+- Prax 
+	Start Prax, and test that it works:
+		$ ./bin/prax start
+		$ firefox localhost
+	Link your applications, and enjoy:
+		$ cd path/to/myapp
+		$ prax link
+		$ firefox myapp.dev
